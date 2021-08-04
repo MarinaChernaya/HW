@@ -9,7 +9,7 @@ import okhttp3.Response;
 import java.io.IOException;
 
 public class AccuweatherModel implements WeatherModel {
-    //http://dataservice.accuweather.com/forecasts/v1/daily/1day/349727
+    //http://dataservice.accuweather.com/forecasts/v1/daily/1day/295212
     private static final String PROTOKOL = "https";
     private static final String BASE_HOST = "dataservice.accuweather.com";
     private static final String FORECASTS = "forecasts";
