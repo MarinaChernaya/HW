@@ -49,14 +49,6 @@ public class DataBaseRepository {
         }
     }
 
-    //public List<Weather> getSavedToDBWeather() {
-    //    try (Connection connection = DriverManager.getConnection(DB_PATH)) {
-    //        //TODO: реализовать этот метод получения данных из таблицы погоды
-    //    } catch (SQLException throwables) {
-    //        throwables.printStackTrace();
-    //    }
-    //}
-
     public static void main(String[] args) throws SQLException {
         DataBaseRepository dataBaseRepository = new DataBaseRepository();
         dataBaseRepository.saveWeatherToDataBase(new Weather("Москва", "12.12.12", 12));
